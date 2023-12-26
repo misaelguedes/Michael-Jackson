@@ -1,0 +1,40 @@
+header {
+    background-color: black;
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+}
+
+.titulo {
+    flex: 30%;
+    text-align: left;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+.titulo > h1 {
+    font-size: 4em;
+    color: white;
+}
+
+.itens {
+    flex: 50%;
+    text-align: right;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+.itens > a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.itens > a:hover {
+    border-bottom: 4px solid white;
+}
