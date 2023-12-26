@@ -33,8 +33,73 @@ header {
     font-size: 25px;
     padding: 15px;
     padding-bottom: 5px;
+    transition: all 0.2s;
 }
 
 .itens > a:hover {
     border-bottom: 4px solid white;
+}
+
+.burguer span {
+    color: white;
+    font-size: 2em;
+    display: none;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 1328px) {
+    .titulo h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .titulo h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .titulo h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: block;
+        height: auto;
+    }
+
+    .titulo {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .titulo h1 {
+        font-size: 2.7em;
+    }
+
+    .itens {
+        display: none;
+        margin-right: 0px;
+    }
+    .itens a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .burguer span {
+        display: block;
+        margin: auto;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .itens a {
+        font-size: 1.5em;
+    }
 }
