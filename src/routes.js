@@ -1,9 +1,9 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Header from './components/header'
-import Footer from './components/footer/Footer'
-import Home from './pages/home/Home'
-import History from './pages/history/History'
-import Discography from './pages/discography/Discography'
+import Footer from './components/footer'
+import Home from './pages/home'
+import History from './pages/history'
+import Discography from './pages/discography'
 
 export default function RoutesApp() {
     return (

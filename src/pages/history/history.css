@@ -11,3 +11,13 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .esquerda, .direita {
+        max-width: 80%;
+        float: none;
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
