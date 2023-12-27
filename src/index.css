@@ -61,4 +61,8 @@ hr {
   section {
     padding: 10px 30px;
   }
+
+  section > img {
+    max-width: 90vw;
+  }
 }
