@@ -4,6 +4,7 @@ import Footer from './components/footer'
 import Home from './pages/home'
 import History from './pages/history'
 import Discography from './pages/discography'
+import Erro from './pages/erro'
 
 export default function RoutesApp() {
     return (
@@ -13,6 +14,8 @@ export default function RoutesApp() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='/historia' element={<History/>}/>
                 <Route path='/discografia' element={<Discography/>}/>
+
+                <Route path='*' element={<Erro/>}/>
             </Routes>
             <Footer/>
         </BrowserRouter>
